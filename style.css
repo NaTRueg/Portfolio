@@ -6,7 +6,6 @@
 
 body {
     
-    
     font-family: 'Montserrat', sans-serif;
     /* font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
@@ -39,11 +38,8 @@ body {
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.342);
-
     pointer-events: none !important;
     }
-
-
 
 /* loader */
 
@@ -132,13 +128,10 @@ body {
     width: 100%;
     box-sizing: border-box;
     
-   
-    /* border: solid 2px yellow; */
 }
 
 .navbar a {
     
-    /* border: solid 2px rgb(255, 0, 221); */
     text-decoration: none;
     opacity:1;
     transition-duration:1s;
@@ -163,7 +156,6 @@ body {
 
 .navbar .nav-links ul {
     display: flex;
-    /* border: solid 2px rgb(0, 255, 34); */
 
 }
 
@@ -171,7 +163,6 @@ body {
     display: flex;
     margin: 100px 50px;
     box-sizing: border-box;
-    /* border: solid 2px rgb(0, 162, 255); */
 
 }
 
@@ -189,21 +180,18 @@ body {
 
 @media (max-width: 830px){
     .lettre {
-
         font-size: 60px;
     }
     }
 
 @media (max-width: 700px){
         .lettre {
-
             font-size: 40px;
         }
         }
 
 @media (max-width: 540px){
     .lettre {
-
         font-size: 30px;
     }
     }
@@ -211,7 +199,6 @@ body {
 @media screen and (max-width: 850px){
     
     .navbar a:hover{
-        
         font-size: 1.1em;
         
 }
@@ -219,6 +206,7 @@ body {
       margin-top: 0px;
         
     }
+    
 
     .nav-links {
         
@@ -260,16 +248,12 @@ body {
     }
 
     .navbar .nav-links ul li {
-        
         margin: 25px 0;
-        
-        /* border: solid 2px rgb(0, 162, 255); */
     
     }
 }
     
 .logoens {
-    /* border: solid 2px rgb(0, 162, 255); */
     display:flex;
     justify-content: center;
 
@@ -297,15 +281,14 @@ body {
 @media (max-width: 850px){
     .logoens .fa-ul {
         margin-top: 30px;
-        /* margin-right: 50px;
-    } */
     }
 }
+
 
 i {
     color:white;
     font-size: 2em;
-   
+    transition-duration:1s;
 }
 
 .logoens .fa-ul i:hover{
@@ -413,8 +396,6 @@ i {
     color: rgba(255, 255, 255, 0.63) ;
     text-align: center;
     
-
-
 }
 
 .Present {
@@ -696,8 +677,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   background-image: linear-gradient(110deg,#2e0d3662 ,#a85f0538), url(./city-ge91aea2dc_1280.jpg);
   width: 100%;
   height: 20rem;
-  /* margin-bottom: 5em;
-  margin-top: 5em; */
+
 }
 
 .contact i {
@@ -771,7 +751,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .Tact {
         
     background-image: linear-gradient(180deg,#64225D , #2B0F27);
-        /* background-image: repeating-linear-gradient(60deg, transparent, transparent 50px, rgb(255, 255, 255) 70px, rgb(255, 255, 255) 100px); */
+       
     }
 
 
