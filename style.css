@@ -623,26 +623,27 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   }
   
   .card.highlight {
-    filter: brightness(1)
-  }
+    filter: brightness(1)  ;
+    -webkit-filter: brightness(1);
+}
   
   
   .card:nth-of-type(1) .image-container {
-      background-image: url(./proo.png);
+      background-image: url(./PROF2.png);
   }
    
   .card:nth-of-type(2) .image-container {
-    background-image: url(./kb92.gif)
+    background-image: url(./PROF1.png)
   }
 
   .card:nth-of-type(3) .image-container {
-    background-image: url(./Industrious6.gif)
+    background-image: url(./IndustriousFF2.gif)
   }
   .card:nth-of-type(4) .image-container {
-    background-image: url(./nicepage.gif)
+    background-image: url(./kb9FINAL.gif)
   }
   .card:nth-of-type(5) .image-container {
-    background-image: url(./proo.png)
+    background-image: url(./BUSINESSF.gif)
   }
   
   
@@ -897,6 +898,8 @@ footer {
     width: 80%;
     margin-left: 0;
     margin-right: 0;
+    text-align: center;
+    font-size: 0.9em;
 
 }
 
@@ -908,7 +911,7 @@ footer {
         padding: 10px 15px ;
         margin-top: 30px;
         font-family: 'Montserrat', sans-serif;
-        font-size: 1em;
+        font-size: 1.5em;
         text-transform: uppercase;
     }
 
@@ -921,3 +924,11 @@ footer {
     }
 }
 
+
+@media (max-width: 600px){
+    .nasa {
+       
+        font-size: 1.2em;
+
+    }
+}
