@@ -470,14 +470,6 @@ i {
     }
 
 
-.map {
-    display: flex;
-    justify-content: center;
-    margin-block-end: 50px;
-    padding: 20px;
-    border-radius: 50px;
-    
-}
 
 .BUTTON:hover{
         
@@ -775,4 +767,157 @@ footer {
     font-family: 'Open Sans',sans-serif;
 }
 
+.API {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+    background-color: rgba(0, 0, 0, 0.986);
+    background-image:  url(./stars-2643089.jpg);
+
+}
+
+.nasa {
+    display:flex;
+    border: 2px solid rgb(255, 255, 255)  ;
+    color: rgb(255, 255, 255) ;
+    padding: 10px 15px ;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+.DATEItitre {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.658);
+    border: 2px solid rgb(255, 255, 255)  ;
+    padding: 20px 20px;
+    
+    margin-top: 20px;
+}
+
+#title {
+    color: rgb(255, 255, 255) ;
+    justify-content:center;
+    display:flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1,5em;
+    line-height:2em;
+    letter-spacing: .1em;
+    font-weight: 600;
+}
+
+.Divdate {
+    color: rgb(255, 255, 255) ;
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1,5em;
+    line-height:2em;
+    letter-spacing: .1em;
+    font-weight: 600;
+    
+}
+
+.block {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    /* height: 700px; */
+    
+}
+
+#explanation{
+    color: rgb(255, 255, 255) ;
+    border: 2px solid rgb(255, 255, 255)  ;
+    display:flex;
+    text-align:left;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 40px;
+    font-size: 1,5em;
+    line-height:2em;
+    letter-spacing: .1em;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 10px 10px;
+}
+
+#pic {
+    border: 2px solid rgb(255, 255, 255)  ;
+    margin-left: 5%;
+    display:flex;
+    width: 500px;
+    height: 600px;
+    
+}
+
+.API .BARRE {
+    background-color: white;
+}
+
+@media (max-width: 1130px){
+    .block {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+}
+
+#pic {
+    
+    display:flex;
+    width:90%;
+    margin-bottom: 40px;
+    margin-left: 0;
+    
+    
+}
+
+.nasa {
+    display:flex;
+    padding: 10px 15px ;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+#explanation{
+    width: 80%;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+}
+
+@media (max-width: 740px){
+    .nasa {
+        display:flex;
+        padding: 10px 15px ;
+        margin-top: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+        text-transform: uppercase;
+    }
+
+    #title {
+        font-size: 1em;
+    }
+
+    .Divdate {
+        font-size: 1em;
+    }
+}
 
