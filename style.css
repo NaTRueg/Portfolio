@@ -976,3 +976,71 @@ footer {
 }
 
 }
+
+@media (max-width: 370px){
+    .ABOUTME {
+        font-size: 1em;
+        
+    }
+
+    .REALISA {
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    .nasa {
+        font-size: 0.9em;
+        font-weight: 500;
+    }
+
+
+    .NOM {
+        font-size: 1.8em;
+}
+
+
+
+}
+
+@media (max-width: 330px){
+    
+    .nasa {
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+
+
+    .contact i {
+        font-size: 3em;
+    }
+
+    .contactbio a {
+        font-size: 7px;
+    }
+
+    .NOM {
+        font-size: 1.6em;
+}
+
+.contactbio a:hover{
+        
+    font-size: 7px;
+
+}
+
+.carre {
+    
+    width: 100%;
+
+}
+}
+
+@media (max-width: 400px){
+
+    .loader {
+       
+        display: none; 
+        
+    }
+
+}
