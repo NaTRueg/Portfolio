@@ -221,6 +221,7 @@ body {
         min-height: 800px;
         background-color: rgba(8, 8, 8, 0.301);
         backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
         margin-left: -100%;
         overflow:hidden;
         transition: all  0.5s ease-in   ;
@@ -931,4 +932,47 @@ footer {
         font-size: 1.2em;
 
     }
+}
+
+
+@media (max-width: 480px){
+    .ABOUTME {
+        font-size: 1.5em;
+        
+    }
+
+    .REALISA {
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+
+    .nasa {
+        font-size: 1em;
+    }
+
+    .iner2 {
+        background-size:cover;
+        background-attachment:local;
+        height: 10rem;
+        /* width:100%; */
+    }
+
+    .contact i {
+        font-size: 3em;
+    }
+
+    .contactbio a {
+        font-size: 8px;
+    }
+
+    .NOM {
+        font-size: 1.9em;
+}
+
+.contactbio a:hover{
+        
+    font-size: 8px;
+
+}
+
 }
